@@ -1,3 +1,0 @@
-#inlclude<iostream>
-
-using namespamlkfvmalfvma
