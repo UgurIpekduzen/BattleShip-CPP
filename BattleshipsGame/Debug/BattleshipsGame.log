@@ -1,0 +1,4 @@
+﻿  Board.cpp
+c:\users\grundig\desktop\nyp ödev\battleshipsgame\battleshipsgame\board.cpp(42): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  BattleshipsGame.vcxproj -> C:\Users\Grundig\Desktop\NYP Ödev\BattleshipsGame\Debug\BattleshipsGame.exe
+  BattleshipsGame.vcxproj -> C:\Users\Grundig\Desktop\NYP Ödev\BattleshipsGame\Debug\BattleshipsGame.pdb (Full PDB)
