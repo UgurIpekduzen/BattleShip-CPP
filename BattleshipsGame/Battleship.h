@@ -4,6 +4,37 @@
 #include <ctime>
 #include <iomanip>
 using namespace std;
+
+/* 
+	- HARÝTANIN MANTIÐI - 
++ -1 => Gemi etrafýndaki boþluklar
++ 0 => Temiz harita
++ 1 => Gemi
++ 2 => Hit
++ 3 => Miss
+
+	- HARÝTADAKÝ YÖN MANTIÐI -
++ 0 => Dikey yön
++ 1 => Yatay yön
+
+	- HARÝTADAKÝ KOORDÝNAT MANTIÐI -
++ Oyun haritasýnda deðiþiklik yapýlýrken kullanýlan satýr sütun iþlemleri koordinat düzlemi mantýðýna göre çalýþmaktadýr.
+	Ör/
+		Bir board[y][x] dizisi,
+				
+					X
+			= = = = = = = = = = 
+			= = = = = = = = = =
+			= = = = = = = = = =
+			= = = = = = = = = =
+		Y	= = = = = = = = = =  gösterildiði gibi çalýþmaktadýr.
+			= = = = = = = = = =
+			= = = = = = = = = =
+			= = = = = = = = = =
+			= = = = = = = = = =
+			= = = = = = = = = =
+*/
+
 class Battleship
 {
 private:
@@ -12,16 +43,17 @@ private:
 	int comScore, plyScore;
 public:
 	Battleship();
-	void setShipsHoritonally(int board[10][10], int coorX, int coorY, int shipSize);
-	void setShipsVertically(int board[10][10], int coorX, int coorY, int shipSize);
 	void printBoards();
 	void setComputerShips();
+	void setPlayerShips();
+	bool areCoordinatesInRange(int x, int y);
+	void setShipsHorizontally(int board[10][10], int x, int y, int shipSize);
+	void setShipsVertically(int board[10][10], int x, int y, int shipSize);
+	bool isShipOutofBoard(int x, int y, int shipSize, int direction);
+	bool isOverlapping(int board[10][10], int x, int y, int shipSize, int direction);
 	void startGame();
 	bool playersTurn();
 	bool computersTurn();
-	void setPlayerShips();
-	bool isShipOutofBoard(int coorX, int coorY, int shipSize, int direction);
-	bool isOverlapping(int board[10][10], int coorX, int coorY, int shipSize, int direction);
 	bool isHitOrMissed(int board[10][10], int x, int y);
 	~Battleship();
 };

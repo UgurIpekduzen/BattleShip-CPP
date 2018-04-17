@@ -1,7 +1,5 @@
-﻿  Source.cpp
-  Batteship.cpp
-c:\users\grundig\desktop\nyp ödev\battleshipsgame\battleshipsgame\batteship.cpp(54): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\grundig\desktop\nyp ödev\battleshipsgame\battleshipsgame\batteship.cpp(97): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
+﻿  Batteship.cpp
+c:\users\grundig\desktop\nyp ödev\battleshipsgame\battleshipsgame\batteship.cpp(47): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\grundig\desktop\nyp ödev\battleshipsgame\battleshipsgame\batteship.cpp(151): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   BattleshipsGame.vcxproj -> C:\Users\Grundig\Desktop\NYP Ödev\BattleshipsGame\Debug\BattleshipsGame.exe
   BattleshipsGame.vcxproj -> C:\Users\Grundig\Desktop\NYP Ödev\BattleshipsGame\Debug\BattleshipsGame.pdb (Full PDB)
