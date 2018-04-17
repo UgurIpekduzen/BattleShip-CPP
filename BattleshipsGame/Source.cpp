@@ -2,20 +2,13 @@
 
 void main()
 {
-	/* - OYUN AÇILIRKEN - 
-	+ Oyun açıldığında bilgisayar tahtası oluşturulurken, rasgele değerler verilmektedir.
-	+ Bu verilen değerlere uygun yerleştirme işlemlerinde yapılan kontroller ve hesaplamalar uzun sürebilmektedir.
-	+ Bu yerleştirme işlemleri bittiğinde, her iki tahta ekranda yazdırılır, sonra oyuncu kendi tahtasında gemileri yerleştirmeye başlar.
+	/* - OYUN AÃ‡ILIRKEN - 
+	+ Oyun aÃ§Ä±ldÄ±ÄŸÄ±nda bilgisayar tahtasÄ± oluÅŸturulurken, rasgele deÄŸerler verilmektedir.
+	+ Bu verilen deÄŸerlere uygun yerleÅŸtirme iÅŸlemlerinde yapÄ±lan kontroller ve hesaplamalar uzun sÃ¼rebilmektedir.
+	+ Bu yerleÅŸtirme iÅŸlemleri bittiÄŸinde, her iki tahta ekranda yazdÄ±rÄ±lÄ±r, sonra oyuncu kendi tahtasÄ±nda gemileri yerleÅŸtirmeye baÅŸlar.
 	*/
 	Battleship battleship;
 	battleship.setComputerShips();
 	battleship.setPlayerShips();
 	battleship.startGame();
 }
-
-/*
-	- HAZIRLAYANLAR -
-+ 150101045 - Uğur İPEKDÜZEN
-+ 160101001 - Şeyma Nur PEHLİVAN
-+ 160101041 - Mustafa Furkan ŞEN
-*/
