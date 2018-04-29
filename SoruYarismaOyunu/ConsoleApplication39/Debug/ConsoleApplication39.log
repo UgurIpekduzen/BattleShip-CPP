@@ -1,7 +1,8 @@
 ﻿  ConsoleApplication39.cpp
-c:\users\furka\source\repos\consoleapplication39\consoleapplication39\consoleapplication39.cpp(16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\furka\source\repos\consoleapplication39\consoleapplication39\consoleapplication39.cpp(27): warning C4101: 'sik1': unreferenced local variable
-c:\users\furka\source\repos\consoleapplication39\consoleapplication39\consoleapplication39.cpp(29): warning C4101: 'sik3': unreferenced local variable
-c:\users\furka\source\repos\consoleapplication39\consoleapplication39\consoleapplication39.cpp(28): warning C4101: 'sik2': unreferenced local variable
-c:\users\furka\source\repos\consoleapplication39\consoleapplication39\consoleapplication39.cpp(30): warning C4101: 'sik4': unreferenced local variable
-  ConsoleApplication39.vcxproj -> C:\Users\furka\source\repos\ConsoleApplication39\Debug\ConsoleApplication39.exe
+c:\users\grundig\documents\github\cpp-projects\soruyarismaoyunu\consoleapplication39\consoleapplication39.cpp(16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\grundig\documents\github\cpp-projects\soruyarismaoyunu\consoleapplication39\consoleapplication39.cpp(22): warning C4326: return type of 'main' should be 'int' instead of 'void'
+c:\users\grundig\documents\github\cpp-projects\soruyarismaoyunu\consoleapplication39\consoleapplication39.cpp(27): warning C4101: 'sik1': unreferenced local variable
+c:\users\grundig\documents\github\cpp-projects\soruyarismaoyunu\consoleapplication39\consoleapplication39.cpp(29): warning C4101: 'sik3': unreferenced local variable
+c:\users\grundig\documents\github\cpp-projects\soruyarismaoyunu\consoleapplication39\consoleapplication39.cpp(28): warning C4101: 'sik2': unreferenced local variable
+c:\users\grundig\documents\github\cpp-projects\soruyarismaoyunu\consoleapplication39\consoleapplication39.cpp(30): warning C4101: 'sik4': unreferenced local variable
+  ConsoleApplication39.vcxproj -> C:\Users\Grundig\Documents\GitHub\CPP-Projects\SoruYarismaOyunu\Debug\ConsoleApplication39.exe
