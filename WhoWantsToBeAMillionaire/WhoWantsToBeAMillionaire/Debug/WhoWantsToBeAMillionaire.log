@@ -1,4 +1,7 @@
 ﻿  Game.cpp
-c:\users\grundig\desktop\nyp ödev\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(41): warning C4018: '<=': signed/unsigned mismatch
-c:\users\grundig\desktop\nyp ödev\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(58): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\grundig\desktop\nyp ödev\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(45): warning C4018: '<': signed/unsigned mismatch
+c:\users\grundig\desktop\nyp ödev\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(59): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\grundig\desktop\nyp ödev\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(131): warning C4018: '<': signed/unsigned mismatch
+c:\users\grundig\desktop\nyp ödev\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(132): warning C4018: '<': signed/unsigned mismatch
+c:\users\grundig\desktop\nyp ödev\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(124): warning C4715: 'Game::selectLifeline': not all control paths return a value
   WhoWantsToBeAMillionaire.vcxproj -> C:\Users\Grundig\Desktop\NYP Ödev\WhoWantsToBeAMillionaire\Debug\WhoWantsToBeAMillionaire.exe
