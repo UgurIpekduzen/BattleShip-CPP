@@ -1,0 +1,5 @@
+Ugur,0
+Ugur,3000
+Ugur,1000000
+Ugur,1000
+Ugur,15000

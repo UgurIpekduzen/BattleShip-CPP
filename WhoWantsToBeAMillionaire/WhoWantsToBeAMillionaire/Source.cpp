@@ -3,14 +3,11 @@
 void main()
 {
 	Game game;
-	game.selectQuestion();
+	game.startGame();
 }
-
-/* NOTLAR
- - selectLifeline() metodu hatalý, düzeltilecek.
- - Scoreboard yazma, okuma metodlarý yazýlacak.
- - Oyun giriþ menüsü yapýlacak.
-	* Oyuna baþla
-		->Ýsim, soyad girme.
-	* Scoreboard göster
- */
+/*
+- HAZIRLAYANLAR -
++ 150101045 - Uður ÝPEKDÜZEN
++ 160101001 - Þeyma Nur PEHLÝVAN
++ 160101041 - Mustafa Furkan ÞEN
+*/
