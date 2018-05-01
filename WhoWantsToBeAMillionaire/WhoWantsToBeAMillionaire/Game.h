@@ -9,6 +9,7 @@
 #include<string>
 #include <array>
 #include<Windows.h>
+#include<mmsystem.h>
 
 enum choiceIndex { A, B, C, D };
 enum lifelineIndex { FiftyFifty, DoubleDip };

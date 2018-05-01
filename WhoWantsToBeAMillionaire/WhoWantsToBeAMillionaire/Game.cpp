@@ -53,6 +53,7 @@ void Game::readQuestions() {
 	ifstream questionFile;
 	questions.resize(12); // Toplamda 12 soru sorulacak.
 	questionFile.open("question.csv");
+
 	for (int levelCount = 0; levelCount < 12; levelCount++) {
 		while (questionFile.good()) {
 			while (getline(questionFile, questionID, ',')) {
@@ -80,6 +81,7 @@ void Game::readQuestions() {
 
 void Game:: printQuestion(int & levelIndex, int questionIndex, array<string, 4> & arr) {
 	system("CLS");
+	PlaySoundA("Question.wav", NULL, SND_ASYNC);
 	cout << levelIndex + 1 << ") " << questions[levelIndex][questionIndex].getQuestion() << "?"<< endl << endl;
 	for (int i = 0; i < choiceNames.size(); i++) {
 		cout << choiceNames[i] << ") " << arr[i];
@@ -157,7 +159,9 @@ void Game::selectChoice(int & levelIndex, int questionIndex, int choiceSelect) {
 	//ASCII tablosunda büyük harf kodlarýnýn 32 fazlasý küçük harf kodlarýna eþittir. 
 	if (choiceSelect == questions[levelIndex][questionIndex].getCorrectChoice().at(0) || choiceSelect == questions[levelIndex][questionIndex].getCorrectChoice().at(0) + 32) {
 		totalPrize = moneyPrize[levelIndex];
+		PlaySoundA("True.wav", NULL, SND_ASYNC);
 		if (levelIndex == 11) {
+
 			cout << "Answer: " << questions[levelIndex][questionIndex].getCorrectChoice() << endl
 				<< "Congratulations! You win!" << endl
 				<< "Prize: " << totalPrize << endl;
@@ -169,6 +173,7 @@ void Game::selectChoice(int & levelIndex, int questionIndex, int choiceSelect) {
 			Sleep(3000);
 		}
 	} else {
+		PlaySoundA("False.wav", NULL, SND_ASYNC);
 		cout << "Answer: " << questions[levelIndex][questionIndex].getCorrectChoice() << endl
 		    << "You lose!" << endl
 			<< "Prize: " << totalPrize << endl;
