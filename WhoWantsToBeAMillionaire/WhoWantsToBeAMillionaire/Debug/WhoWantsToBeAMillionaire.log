@@ -1,14 +1,10 @@
-﻿  Source.cpp
-  Scoreboard.cpp
-  Question.cpp
-  Game.cpp
-c:\users\şeyma\desktop\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(45): warning C4018: '<': signed/unsigned mismatch
-c:\users\şeyma\desktop\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(86): warning C4018: '<': signed/unsigned mismatch
-c:\users\şeyma\desktop\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(98): warning C4018: '<': signed/unsigned mismatch
-c:\users\şeyma\desktop\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(126): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\şeyma\desktop\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(213): warning C4018: '<': signed/unsigned mismatch
-c:\users\şeyma\desktop\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(214): warning C4018: '<': signed/unsigned mismatch
-c:\users\şeyma\desktop\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(215): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
-c:\users\şeyma\desktop\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(209): warning C4715: 'Game::selectLifeline': not all control paths return a value
-  WhoWantsToBeAMillionaire.vcxproj -> C:\Users\Şeyma\Desktop\CPP-Projects\WhoWantsToBeAMillionaire\Debug\WhoWantsToBeAMillionaire.exe
+﻿  Game.cpp
+c:\users\grundig\documents\github\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(45): warning C4018: '<': signed/unsigned mismatch
+c:\users\grundig\documents\github\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(86): warning C4018: '<': signed/unsigned mismatch
+c:\users\grundig\documents\github\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(98): warning C4018: '<': signed/unsigned mismatch
+c:\users\grundig\documents\github\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(126): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\grundig\documents\github\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(213): warning C4018: '<': signed/unsigned mismatch
+c:\users\grundig\documents\github\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(214): warning C4018: '<': signed/unsigned mismatch
+c:\users\grundig\documents\github\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(215): warning C4018: '<': signed/unsigned mismatch
+c:\users\grundig\documents\github\cpp-projects\whowantstobeamillionaire\whowantstobeamillionaire\game.cpp(209): warning C4715: 'Game::selectLifeline': not all control paths return a value
+  WhoWantsToBeAMillionaire.vcxproj -> C:\Users\Grundig\Documents\GitHub\CPP-Projects\WhoWantsToBeAMillionaire\Debug\WhoWantsToBeAMillionaire.exe
